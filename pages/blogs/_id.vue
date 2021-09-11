@@ -13,7 +13,9 @@ import axios from 'axios'
 export default {
     data() {
         return {
-            blog: {}
+            blog: {
+              title: ''
+            }
         }
     },
     methods: {
@@ -25,6 +27,18 @@ export default {
     },
     mounted(){
         this.fetchBlog()
+    },
+    head: {
+      title: 'Blog',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Your way to the moon!'
+        }
+      ],
     }
 }
 </script>

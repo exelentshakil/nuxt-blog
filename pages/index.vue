@@ -9,17 +9,18 @@
 
 <script>
 export default {
-  head: {
-    title: 'Nuxt Blog',
-    meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      {
-        hid: 'description',
-        name: 'description',
-        content: 'Your way to the moon!'
-      }
-    ],
+    head: {
+      title: 'Nuxt Blog',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Your way to the moon!'
+        }
+      ],
+    }
 }
 </script>
 
